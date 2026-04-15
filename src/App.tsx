@@ -23,31 +23,30 @@ export default function App() {
       </header>
 
       {/* Fixed Background Image for Overlay Animation */}
-      <div className="fixed inset-0 z-[-1] bg-[#f8f7f5] pt-24 pb-8">
+      <div className="fixed inset-0 z-[-1] bg-[#f8f7f5] pt-24 pb-[12vh]">
         <img 
           src="https://lh3.googleusercontent.com/aida/ADBb0uhtRLIYxrcyTTYbVlPh4k1ezOCqYqNoq2h3EyxebtxciQXc8oTyWeWw_8eyzt5u4_BQjBLXqpgnFFfsTXk2-pf6e0zbOLGP8EsKYyEBbMjD_yG5T46rkvWeMEbe4LY0WyQd1cFStudpqpuadhFFw2nWg7YmKMiYR8ANXwBNqLb0DnFqlsFVOu0JqnwcUXKlLw2-JspLCBIuHRU3cU3NFNOMu5f9ywvJQH_g7OTUim2BZFBxkevVJT2ufQyLYJIyEGzGdbNJ5YyTog0" 
           alt="SuperDad Hero" 
-          className="w-full h-full object-contain object-top"
+          className="w-full h-full object-contain object-center"
         />
       </div>
 
       <main>
         {/* Hero Spacer */}
-        <section className="relative w-full h-[70vh] flex items-center justify-center">
+        <section className="relative w-full h-[88vh] flex items-center justify-center">
           {/* Transparent spacer to reveal the fixed background and allow Joyful Creations to peek from the bottom */}
         </section>
 
         {/* Joyful Creations Section */}
-        <section className="relative py-32 px-6 md:px-12 bg-white/70 backdrop-blur-md border-t border-white/50 shadow-[0_-10px_40px_rgba(0,0,0,0.05)]">
+        <section className="relative pt-8 pb-32 px-6 md:px-12 bg-white/70 backdrop-blur-md border-t border-white/50 shadow-[0_-10px_40px_rgba(0,0,0,0.05)]">
           <div className="max-w-7xl mx-auto">
-            <div className="flex flex-col md:flex-row md:items-end justify-between mb-20 gap-8">
-              <div className="max-w-xl">
-                <h2 className="text-4xl md:text-5xl font-bold text-on-surface mb-6 leading-tight">Joyful Creations</h2>
+            <div className="flex flex-col items-center text-center mb-16 gap-6">
+              <div className="max-w-2xl">
+                <h2 className="text-4xl md:text-5xl font-bold text-on-surface mb-4 leading-tight">Joyful Creations</h2>
                 <p className="text-on-surface-variant text-lg leading-relaxed">
                   Every moment shared is a thread in the tapestry of their future. Discover tools crafted to turn simple interactions into lasting digital treasures.
                 </p>
               </div>
-              <div className="h-px flex-grow bg-outline-variant/30 mx-8 hidden md:block mb-4"></div>
               <div className="flex items-center gap-2 text-tertiary font-bold group cursor-pointer">
                 <span className="text-sm tracking-widest uppercase">Explore All Templates</span>
                 <span className="material-symbols-outlined group-hover:translate-x-1 transition-transform">arrow_forward</span>
